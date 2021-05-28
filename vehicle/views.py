@@ -26,7 +26,7 @@ def mechanicsclick_view(request):
     return render(request,'vehicle/mechanicsclick.html')
 
 
-#for showing signup/login button for ADMIN(by sumit)
+#for showing signup/login button for ADMIN
 def adminclick_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
