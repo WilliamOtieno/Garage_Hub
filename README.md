@@ -6,10 +6,10 @@
 
 ## Customer
 
-- customer will signup and login into system
-- customer can make request for service of their vehicle by providing details (vehicle number, model, problem description etc.)
-- After Request approved by admin, customer can check cost, status of service
-- customer can delete request (Enquiry) if customer change their mind or not approved by admin (ONLY PENDING REQUEST CAN BE DELETED )
+- Customer will signup and login into the system
+- Customer can make requests for service of their vehicle by providing details (vehicle number, model, problem description etc.)
+- After the request is approved by admin, the customer can check cost, status of service
+- customer can delete request (Enquiry) if the customer changes their mind or not approved by admin (ONLY PENDING REQUEST CAN BE DELETED )
 - customer can check status of Request(Enquiry) that is Pending, Approved, Repairing, Repairing Done, Released
 - customer can check invoice details or repaired vehicles
 - customer can send feedback to admin
@@ -86,7 +86,7 @@ http://127.0.0.1:8000/
 
 ## CHANGES REQUIRED FOR CONTACT US PAGE
 
-- In settins.py file, You have to give your email and password
+- In settings.py file, You have to give your email and password
 
 ```
 EMAIL_HOST_USER = 'youremail@gmail.com'
@@ -102,7 +102,7 @@ https://myaccount.google.com/lesssecureapps
 
 ## Drawbacks/LoopHoles
 
-- When customer/mechanic edit their profile then he/she must login again because their username/password is updated in db.
+- When customer/mechanic edits their profile then he/she must login again because their username/password is updated in db.
 
 ## Disclaimer
 
